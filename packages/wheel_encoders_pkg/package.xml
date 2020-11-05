@@ -1,0 +1,11 @@
+<package>
+  <name>wheel_encoders_pkg</name>
+  <version>0.1.0</version>
+  <description>
+  For RH3, E-3
+  </description>
+  <maintainer email="jonathan.n.peel@gmail.com">Jonathan Peel</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

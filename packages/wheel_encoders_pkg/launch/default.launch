@@ -1,0 +1,6 @@
+<launch>
+	<arg name="veh" default="default_vehicle"/>
+	<group ns="$(arg veh)">
+		<node pkg="wheel_encoders_pkg" type="get_encoder_data_node.py" name="get_encoder_data_node" output="screen"/>
+	</group>
+</launch>
